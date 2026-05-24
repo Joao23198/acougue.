@@ -1,0 +1,17 @@
+{
+  "usuarios": [
+    { "id": 1, "nome": "João", "email": "joao@email.com", "senha": "1234", "endereco": "Rua das Flores, 123" },
+    { "id": 2, "nome": "Maria", "email": "maria@email.com", "senha": "abcd", "endereco": "Av. Brasil, 456" }
+  ],
+  "produtos": [
+    { "id": 1, "nome": "Picanha", "preco": 79.90, "imagem": "https://meusite.com/picanha.png", "descricao": "Corte nobre, ideal para churrasco" },
+    { "id": 2, "nome": "Fraldinha", "preco": 59.90, "imagem": "https://meusite.com/fraldinha.png", "descricao": "Carne macia e saborosa" },
+    { "id": 3, "nome": "Linguiça Artesanal", "preco": 29.90, "imagem": "https://meusite.com/linguica.png", "descricao": "Produção própria, tempero especial" }
+  ],
+  "carrinho": [
+    { "id": 1, "usuarioId": 1, "produtoId": 2, "quantidade": 2 }
+  ],
+  "pedidos": [
+    { "id": 1, "usuarioId": 1, "itens": [ { "produtoId": 1, "quantidade": 1 }, { "produtoId": 3, "quantidade": 2 } ], "total": 139.70, "status": "Entregue" }
+  ]
+}
